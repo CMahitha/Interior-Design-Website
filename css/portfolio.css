@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Poppins&family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+    }
+    
+    body{
+    
+    font-family: "Poppins", sans-serif;
+    }
+    
+    a, a:hover{
+    
+    text-decoration: none;
+    }
+   
+                
+
+                            
+                            .filter-gallery{
+                                display: grid;
+                        
+                                background: black;
+                                color: #fff;
+                                left: 8vh;
+                                }
+                                
+                                .portfolio-menu{
+                                
+                                margin-top: 0px;
+                                margin-bottom: 20px;
+                                margin-left: 30vh;
+                                    
+                                    }
+                                
+                                
+    
+                                .portfolio-menu ul li{
+    
+                                    List-style: none;
+                                    display: inline-block;
+                                    margin:20px 0px;
+                                    font-size: 20px;
+                                
+                                    font-family: roboto;
+    
+                                    text-transform: uppercase;
+        font-weight: 100;
+        letter-spacing: 2px;
+    
+                                    padding: 10px 20px;
+                                    cursor: pointer;
+                                    transition: 0.5s ease;
+                                    text-align: center;
+                                }
+                                .portfolio-menu ul li a{
+                                    color: #fff;
+                                    
+                                }
+                                .portfolio-menu ul li a::after {
+
+                                    content:'';
+                                    
+                                    width: 0;
+                                    
+                                    height: 2px;
+                                    
+                                    background-color: white;
+                                    
+                                    margin: auto;
+                                    
+                                    display: block;
+                                    
+                                    
+                                    }
+                                    
+                                    .portfolio-menu ul li a:hover::after {
+                                    
+                                        width: 100%;
+                                        
+                                        transition: width 0.3s linear; 
+                                        }
+                                        .portfolio-menu ul li:hover{
+                                            color: #fff;
+                                        }
+    
+                                        li.active{
+                                        
+                                        color: white;
+                                        
+                                        
+                                        
+                                        }
+    
+                        .portfolio-item{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            margin-left: 8vh;
+                    margin-right: 8vh;
+            
+                        
+                            
+                        }
+    
+                    
+    
+                        .portfolio-item .item img{
+                            width: 40vh;
+                            height: 42vh;
+                            border-radius: 8px;
+                            box-shadow: 4px 7px 7px 0px #00000042;
+                            cursor: pointer;
+                            border: solid #fff;
+                            border-width: 2px 2px;
+                        transform: 400ms;
+                        margin: 30px;
+    
+                        }
+    
+                        .portfolio-item .item h1{
+                            font-size: 17px;
+        
+        font-weight: 200;
+        font-family: roboto;
+        font-weight: 100;
+        letter-spacing: 1px;
+    font-style: italic;
+        margin-top: 3px;
+        text-align: center;
+        margin-bottom: 6px;
+        
+                        }
+

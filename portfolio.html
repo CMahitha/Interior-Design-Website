@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Karthik Design Solutions</title>
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" 
+integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li class="logo"><a href="#"><img src="logo.jpg" alt="logo"></a></li>
+        <li class="item"><a href="home.html">Home</a></li>
+        <li class="item"><a href="aboutus.html">About us</a></li>
+        <li class="item"><a href="Design Phylosophy.HTML">Design Phylosophy</a></li>
+        <li class="item"><a class="active" href="portfolio.html">Portfolio</a></li>
+        <li class="item"><a href="careers.html">Career</a></li>
+        <li class="item"><a href="Blogs.html">Blogs</a></li>
+        <li class="item"><a href="reachus.html">Reach us</a></li>
+
+        <li class="item button"><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>  
+        <li class="item button"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        
+        <li class="item button"><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        
+        <li class="item button"><a href="#"><ion-icon name="logo-instagram"></ion-Icon></a></li>  
+        <li class="toggle">
+          <a href="#"><span class="bars"></span></a>
+        </li>
+      </ul>
+    </nav>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $(".toggle").on("click", function () {
+          if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+          } else {
+            $(".item").addClass("active");
+          }
+        });
+      });
+    </script>
+
+
+    
+    <section class="filter-gallery"> 
+        <div class="portfolio-menu">
+        <ul>
+
+            <li class="active" data-filter="*"><a href="#">All</a></li>
+            <li data-filter=".nature"><a href="#">Residential</a></li>
+            <li data-filter=".fashion"><a href="#">Commercial</a></li>
+            
+            <li data-filter=".wedding"><a href="#">Hospitality</a></li>
+            
+            
+            
+            </ul>
+            </div>
+
+               <div class="portfolio-item">
+                <div class="item nature">
+                  <a href="p2.html">
+                    <img src="p1.jfif" width="150vh" height="400vh">
+                    <h1>Project - VILLA81</h1>
+                </div>
+
+                <div class="item fashion">
+                  <a href="p2.html">
+                    <img src="img4.jfif" width="250vh" height="400vh">
+                    <h1>Project - VILLA81</h1>
+                </div>
+
+                <div class="item wedding">
+                  <a href="p2.html">
+                    <img src="p3.jfif" width="250vh" height="400vh">
+                    <h1>Project - VILLA81</h1>
+                </div>
+
+
+                <div class="item nature">
+                  <a href="p2.html">
+                    <img src="img2.jfif" width="100" height="100">
+                    <h1>Project - VILLA81</h1>
+                </div>
+
+                <div class="item fashion">
+                  <a href="p2.html">
+                    <img src="img1.jfif" width="100" height="100">
+                    <h1>Project - VILLA81</h1>
+                </div>
+
+                <div class="item wedding">
+                  <a href="p2.html">
+                    <img src="pstr.jfif" width="100" height="100">
+                    <h1>Project - VILLA81</h1>
+                </div>
+
+                
+                <div class="item nature">
+                  <a href="p2.html">
+                    <img src="p4.jfif" width="100" height="100">
+                    <h1>Project - VILLA81</h1>
+                </div>
+
+                <div class="item fashion">
+                  <a href="p2.html">
+                    <img src="img3.jfif" width="100" height="100">
+                    <h1>Project - VILLA81</h1>
+                </div>
+
+                <div class="item wedding">
+                  <a href="p2.html">
+                    <img src="p2.jfif" width="100" height="100">
+                    <h1>Project - VILLA81</h1>
+                </div>
+
+
+
+            </div>  
+      </section>
+ 
+
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+                <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+                <script type="text/javascript">
+                    $('.portfolio-item').isotope({
+  // options
+  itemSelector: '.item',
+  layoutMode: 'fitRows'
+});
+
+$('.portfolio-menu ul li').click(function(){
+    $('.portfolio-menu ul li').removeClass('active');
+    $(this).addClass('active');
+
+        var selector = $(this).attr('data-filter');
+    $('.portfolio-item').isotope({
+        filter:selector
+    });
+    return false;
+});
+                </script>
+
+
+<section class="footer">
+  <div class="foot">
+      <div class="footer-content">
+          
+          <div class="footlinks">
+              <h4>Karthik Design Solutions</h4>
+             
+          </div>
+
+          <div class="footlinks">
+              
+              <div class="social">
+                <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>  
+                <a href="#"><ion-icon name="logo-instagram"></ion-Icon></a></li> 
+                  <a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                  <a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>  
+                  <a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                  
+                  
+              </div>
+          </div>
+          
+      </div>
+  </div>
+
+  <div class="end">
+      <p>Copyright © 2023 | All Rights Reserved.</p>
+  </div>
+</section>
+
+    </body>
+  </html>

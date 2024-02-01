@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Poppins&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+    }
+    
+    body{
+    
+    font-family: "Poppins", sans-serif;
+    }
+
+    
+.blog1{
+    background: rgb(35, 34, 34);
+    min-height: 35vh;
+color: #fcb900;
+}
+ .b1 {
+    position: absolute;
+justify-content: center;
+margin-top: 13vh;
+margin-left: 64vh;
+
+}
+.b1 h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: roboto;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+
+
+.Blog{
+    background: black;
+    
+}
+
+.content{
+    
+
+}
+.content img{
+    padding: 0 110px;
+    width: 800px;
+    height: 700px;
+    margin-bottom: 30px;
+}
+
+.content h2{
+    padding: 0 110px;
+    font-size: 16px;
+    color: white;
+    font-family: pt serif;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.content h1{
+    padding: 0 110px;
+color: white;
+font-weight: 50;
+font-size: 36px;
+letter-spacing: 1px;
+line-height: 40px;
+margin-bottom: 18px;
+}
+
+.content h3{
+    padding: 0 110px;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.content h3 span{
+font-weight: bold;
+}
+
+.content .heading {
+    color: white;
+    font-weight: bold;
+    padding: 15px 90px;
+}
+
+
+  
+.footer{
+    margin-top: 80px;
+    background-color: rgb(35, 34, 34);
+  }
+  
+  .foot{
+    padding: 20px 0;
+  }
+  
+  .footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  
+  .footlinks h4{
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  
+  
+  .social{
+    margin-top: 20px;
+  }
+  .social a{
+    font-size: 25px;
+    margin: 4px;
+    height: 40px;
+    width: 40px;
+    color: rgb(35, 34, 34);
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: ease 0.30s;
+  }
+  
+  .social a:hover{
+    transform: scale(1.2);
+  }
+  
+  .end{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 12px;
+  }
+  
+  .end p{
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  

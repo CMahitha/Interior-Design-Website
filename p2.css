@@ -1,0 +1,77 @@
+*{
+    background:rgb(70, 70, 70);
+}
+.testimonial{
+    background: rgb(70, 70, 70);
+}
+
+/* Testimonial */
+.testimonial-box {
+    padding: 0em 15em;
+
+padding-bottom: 1em;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 300;
+    min-height: 400px;
+  }
+  .testimonial-box h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  .testimonial-box p.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-bottom: 0;
+  }
+  .testimonial-box p.designation {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+  }
+  .testimonial-box.yellow {
+    background-color: #ffbe61;
+  }
+  .testimonial-box.purple {
+    background-color: #7b32d5;
+  }
+  .testimonial-box.blue {
+    background-color: #37a7ff;
+  }
+  .testimonial-box.pink {
+    background-color: #ff2a75;
+  }
+  
+
+
+  .gallery{
+    background: rgb(84, 84, 84);
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 150px;
+    margin-top: 0px;
+    justify-content: center;
+}
+
+.gallery .image{
+    
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+ .gallery .image img{
+    
+    object-fit: cover;
+    transition: .2s linear;
+
+}
+
+
+.gallery image img:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Poppi');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif; }
+
+ 
+body {
+   
+
+    font-family: Arial, sans-serif;
+
+
+     }
+
+     .bg{
+      background-image: url('bg.jpg');
+    
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      background-repeat: no-repeat;
+
+     }
+     .box{
+   
+        height:100vh;
+        float:left;
+        border-radius: 1px;
+        max-width: 800px;
+      
+        background: white;
+
+        opacity: 0;
+       animation: slideLeft 1s ease forwards;
+       animation-delay: 1s;
+     }
+     .box img{
+   
+        
+        margin-top: 200px;
+        margin-left: 60px;
+
+    
+      width:160px;
+        height: 160px;
+     }
+    
+
+
+
+     .box h1{
+      margin-top: 100px;
+      margin-left: 60px;
+      font-size: 40px;
+      font-weight: 50;
+      text-transform: uppercase;
+      
+     }
+
+.box1{
+
+  
+
+   margin-top: 30px;
+  margin-left: 740px;
+   height: 30px;
+   max-width: 120px;
+      
+        background: rgb(231, 227, 6);
+}
+
+     
+     @keyframes slideLeft {
+      0% {
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+      100% {
+      transform: translateX(0);
+      
+      opacity: 1;
+      }
+  }

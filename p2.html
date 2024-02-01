@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Villa81 - Karthik Design Solutions</title>
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="p2.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper.min.css">
+   <!-- Some Javascript -->
+   <script src="js/jquery-2.1.1.js"></script>
+   <script src="js/swiper.jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" 
+integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  </head>
+  <body>
+ 
+  
+    <section class="testimonial">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4 class="sub-heading" style="color: aliceblue; margin-left: 18em; font-weight: 500;">
+             << - - - - - - - - - <u> Swipe with hand for image navigation </u> - - - - - - - - - >></h4>
+            <!----<h1 class="heading pink"><span class="pink">Client's</span> hello <br>testimonials</h1> -->
+            </div>
+          </div>  
+        </div> 
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <!-- Swiper -->
+              <div class="swiper-container testimonial-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide testimonial-box" id="1">
+               <!---<h1>Pixel Perfect design</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                    <div class="text-right">
+                      <p class="name">- John Doe</p>
+                      <p class="designation">Founder, Arrow</p>
+                    </div> -->
+                 <img src="img1.jfif" style="width: 110rem; height: 60rem; "> 
+                  </div>
+
+                  <div class="swiper-slide testimonial-box" id="2">
+                    <img src="img2.jfif" style="width: 110rem; height: 60rem; ">
+                  </div>
+
+                  <div class="swiper-slide testimonial-box" id="3">
+                    <img src="img3.jfif" style="width: 110rem; height: 60rem; ">
+                  </div>
+
+                  <div class="swiper-slide testimonial-box" id="4">
+                    <img src="img4.jfif" style="width: 110rem; height: 60rem; ">
+                  </div>
+
+                  <div class="swiper-slide testimonial-box " id="5">
+                    <img src="post.jfif" style="width: 110rem; height: 60rem; ">
+                  </div>
+
+                  <div class="swiper-slide testimonial-box " id="6">
+                    <img src="pstr.jfif" style="width: 110rem; height: 60rem; ">
+                  </div>
+
+                  <div class="swiper-slide testimonial-box " id="7">
+                    <img src="bg.jpg" style="width: 110rem; height: 60rem; ">
+                  </div>
+                 
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery">
+        <a href="#1"> <div class="image"> <img src="img1.jfif" width="150px" height="100px" alt=""></div> </a>   
+        <a href="#2">   <div class="image"><img src="img2.jfif" width="150px" height="100px"></div> </a>
+        <a href="#3">   <div class="image"><img src="img3.jfif" width="150px" height="100px"></div></a>
+            <a href="#4">     <div class="image"> <img src="img4.jfif" width="150px" height="100px"></div> </a>
+                <a href="#5">      <div class="image"> <img src="post.jfif" width="150px" height="100px"></div> </a>
+                    <a href="#6"> <div class="image"> <img src="pstr.jfif" width="150px" height="100px"></div> </a>
+                    <a href="#7"> <div class="image"> <img src="bg.jpg" width="150px" height="100px"></div> </a>
+             
+         </div>
+     
+      </section>
+
+      <script>
+      // Initialize Testimonial Swiper
+      var swiper2 = new Swiper('.testimonial-swiper', {
+        slidesPerView: 1,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 30,
+        grabCursor: true,
+        freeMode: true,
+        breakpoints: {
+          // when window width is <= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          // when window width is <= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          },
+          // when window width is <= 640px
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          }
+        }
+      });
+      // Initialize Testimonial Swiper
+      var swiper2 = new Swiper('.testimonial-swiper', {
+        slidesPerView: 1,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 20,
+        grabCursor: true,
+        freeMode: true,
+        breakpoints: {
+          // when window width is <= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 8,
+          },
+          // when window width is <= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          },
+          // when window width is <= 640px
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          }
+        }
+      });
+    </script>
+    </body>
+    </html>
